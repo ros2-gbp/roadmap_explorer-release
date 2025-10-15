@@ -1,0 +1,12 @@
+Source: ros-humble-roadmap-explorer-rviz-plugins
+Section: misc
+Priority: optional
+Maintainer: Suchetan Saravanan <rssuchetan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-roadmap-explorer-msgs, ros-humble-ros-environment, ros-humble-rviz-common, ros-humble-rviz-rendering, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-roadmap-explorer-rviz-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-roadmap-explorer-msgs, ros-humble-rviz-common, ros-humble-rviz-rendering, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: A package that contains an RViz plugins for roadmap_explorer
