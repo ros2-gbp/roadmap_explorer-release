@@ -1,0 +1,12 @@
+Source: ros-humble-roadmap-explorer-msgs
+Section: misc
+Priority: optional
+Maintainer: Suchetan Saravanan <rssuchetan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-ros-environment, ros-humble-rosidl-default-generators, ros-humble-ros-workspace, ros-humble-rosidl-typesupport-fastrtps-c, ros-humble-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-roadmap-explorer-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-rosidl-default-generators, ros-humble-ros-workspace
+Description: A package that has the ROS 2 interfaces for running roadmap-explorer
